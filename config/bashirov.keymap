@@ -8,17 +8,17 @@
 
         default_layer {
             // ---------------------------------------------------------------------------------
-            // |   `  |  1  |  2  |  3  |  4  |  9  |     |  6  |  7  |  8  |  9  |  0  -----------| BKSP |
-            // |  TAB |  Q  |  W  |  F  |  P  |  G  |     |  J  |  U  |  Y  |  ;  |  P  |  \   |
+            // | ESC  |  1  |  2  |  3  |  4  |  9  |     |  6  |  7  |  8  |  9  |  0  -----------| BKSP |
+            // | TAB  |  Q  |  W  |  F  |  P  |  G  |     |  J  |  U  |  Y  |  ;  |  P  |  \   |
             // | CAPS |  A  |  R  |  S  |  T  |  D  |     |  N  |  E  |  I  |  O  |  ;  |  ENT |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |     |  K  |  M  |  ,  |  .  |  /  | APOS |
-            // | CTRL | ALT | GUI | SPC | SPC | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
+            // |   `  |  Z  |  X  |  C  |  V  |  B  |     |  K  |  M  |  ,  |  .  |  /  | APOS |
+            // | CTRL | ALT | GUI | SPC | SPC |SHIFT |     | SPC | LOW |LARW |DARW |UARW | RARW |
 
             bindings = <
 &kp ESC               &kp N1              &kp N2             &kp N3             &kp N4            &kp N5                                &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp EQUAL
-&kp TAB               &kp Q               &kp W              &kp F              &kp P             &kp G                                 &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &kp MINUS
-&kp CLCK              &kp A               &kp R              &kp S              &kp T             &kp D                                 &kp H   &kp N   &kp E      &kp I    &kp O     &kp SQT
-&kp GRAVE             &kp Z               &kp X              &kp C              &kp V             &kp B             &kp LALT  &kp LBKT  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp PSCRN
+&kp TAB               &kp Q               &kp W              &kp E              &kp R             &kp T                                 &kp Y   &kp U   &kp I      &kp O    &kp P  &kp MINUS
+&kp CLCK              &kp A               &kp S              &kp D              &kp F             &kp G                                 &kp H   &kp J   &kp K      &kp L    &kp SEMI     &kp SQT
+&kp GRAVE             &kp Z               &kp X              &kp C              &kp V             &kp B             &kp LALT  &kp LBKT  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp PSCRN
            &kp LCTRL          &kp LSHIFT          &kp SPACE          &kp ENTER          &kp BSPC          &kp RBKT
             >;
         };
