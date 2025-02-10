@@ -30,10 +30,10 @@
             // |       |       |       |       |       |       |          |       |       |       |       |       |       |
 
             bindings = <
-&trans       &kp F1       &kp F2       &kp F3       &kp F4       &kp F5                       &kp F6  &kp F7    &kp F8    &kp F9     &kp F10    &kp F11
-&kp RA(A)    &kp RA(R)    &kp RA(S)    &kp RA(T)    &kp RA(D)    &trans                       &trans  &kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &trans
-&trans       &kp RA(Q)    &kp RA(O)    &kp RA(S)    &kp RA(P)    &kp PSCRN                    &trans  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans
-&trans       &trans       &trans       &trans       &trans       &trans       &trans  &trans  &trans  &trans    &kp BSLH  &trans
+&trans          &kp F1       &kp F2       &kp F3       &kp F4       &kp F5                       &kp F6  &kp F7    &kp F8    &kp F9     &kp F10    &kp F11
+&kp RA(SEMI)    &kp RA(Y)    &kp RA(U)    &kp RA(L)    &kp RA(J)    &trans                       &trans  &kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &trans
+&trans          &kp RA(Q)    &kp RA(O)    &kp RA(D)    &kp RA(P)    &kp PSCRN                    &trans  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans
+&trans          &trans       &trans       &trans       &trans       &trans       &trans  &trans  &trans  &trans    &kp BSLH  &trans
             >;
         };
     };
